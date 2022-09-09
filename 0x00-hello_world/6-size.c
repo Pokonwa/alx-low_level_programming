@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - print the size of various types
+ * main - Entry point print the size of various types
  *
  * Desciption: prints the size of various types on the computer it is compiled
  * and run on
