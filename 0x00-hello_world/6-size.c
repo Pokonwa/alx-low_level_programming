@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
- * main - Entry point print the size of various types
+ * main - print the size of various types
  *
  * Desciption: prints the size of various types on the computer it is compiled
  * and run on
@@ -13,7 +13,7 @@ int main(void)
 {
 	printf("Size of a char: %d byte(s)\n", (int)sizeof(char));
 	printf("Size of a char: %d byte(s)\n", (int)sizeof(int));
-	print("Size of a long int: %d byte(s)\n", (int)sizeof(long int));
+	printf("Size of a long int: %d byte(s)\n", (int)sizeof(long int));
 	printf("Size of a long long int: %d byte(s)\n", (int)sizeof(long long int));
 	printf("Size of float: %d byte(s)\n", (int)sizeof(float));
 	return (0);
