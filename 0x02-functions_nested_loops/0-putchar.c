@@ -1,15 +1,19 @@
-#include "main.h"
-
+#include <stdio.h>
 /**
- * main - prints _putchar
- *
- * Description: prints _putchar
- * Return: Always 0 (Success)
+ * main - Entry
+ * Return: returns on success
  */
-
 int main(void)
 {
-	putchar("_putchar\n")
-		return (0);
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putcher('h');
+	putcher('a');
+	putcher('r');
+	putcher('\n');
 
+	return (0);
 }
